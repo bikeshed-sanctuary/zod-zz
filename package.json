@@ -1,0 +1,39 @@
+{
+  "name": "zzod",
+  "version": "0.0.0",
+  "type": "module",
+  "description": "zzod has a bunch of extra types for zod (requires zod as peer dependency)",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "vitest",
+    "test:run": "vitest run"
+  },
+  "keywords": [
+    "zod",
+    "extend",
+    "schema",
+    "validation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "vitest": "^3.2.4",
+    "zod": "^3.0.0"
+  },
+  "dependencies": {
+    "zod-currency": "^0.0.0",
+    "zod-extend": "^0.0.0"
+  }
+}
