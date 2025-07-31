@@ -11,5 +11,5 @@ export function extendZod(zod: typeof import('zod').z): ReturnType<typeof extend
 }
 
 export const zz = {
-  currency: (zod: typeof import('zod').z) => extendZodCurrency(zod).currency,
+  ...extendZodCurrency[OBJECT_EXTEND_FUNCTION_ENTRIES],
 };

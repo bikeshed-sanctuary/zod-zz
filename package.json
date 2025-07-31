@@ -34,7 +34,7 @@
   },
   "dependencies": {
     "universal-symbols": "^0.1.2",
-    "zod-currency": "^0.0.3",
-    "zod-extend": "^0.1.2"
+    "zod-currency": "^0.0.4",
+    "zod-extend": "^0.1.3"
   }
 }
