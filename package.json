@@ -1,6 +1,6 @@
 {
   "name": "zod-zz",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "type": "module",
   "description": "zod-zz has a bunch of extra types for zod (requires zod as peer dependency)",
   "main": "dist/index.js",
