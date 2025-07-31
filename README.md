@@ -1,6 +1,6 @@
 # zod-zz
 
-One [zod-extend](https://github.com/bikeshed-sanctuary/zod-extend) package to rule them all, one [zod-extend](https://github.com/bikeshed-sanctuary/zod-extend) package to find them, One [zod-extend](https://github.com/bikeshed-sanctuary/zod-extend) package to bring package them all and in the darkness bind them. 
+One [zod-extend](https://github.com/bikeshed-sanctuary/zod-extend) package to rule them all, one [zod-extend](https://github.com/bikeshed-sanctuary/zod-extend) package to find them, One [zod-extend](https://github.com/bikeshed-sanctuary/zod-extend) package to package them all and in the darkness bind them. 
 
 
 A Zod extension package that provides additional schema types and methods for enhanced validation.
