@@ -1,4 +1,4 @@
-# zzod
+# zod-zz
 
 One [zod-extend](https://github.com/bikeshed-sanctuary/zod-extend) package to rule them all, one [zod-extend](https://github.com/bikeshed-sanctuary/zod-extend) package to find them, One [zod-extend](https://github.com/bikeshed-sanctuary/zod-extend) package to bring package them all and in the darkness bind them. 
 
@@ -6,12 +6,12 @@ One [zod-extend](https://github.com/bikeshed-sanctuary/zod-extend) package to ru
 A Zod extension package that provides additional schema types and methods for enhanced validation.
 
 ```bash
-npm install zzod zod
+npm install zod zod-zz
 ```
 
 ```typescript
 import { z } from 'zod';
-import { extendZod } from 'zzod';
+import { extendZod } from 'zod-zz';
 
 const zz = extendZod(z);
 
@@ -27,7 +27,7 @@ Validates ISO 4217 currency codes:
 
 ```typescript
 import { z } from 'zod';
-import { extendZod } from 'zzod';
+import { extendZod } from 'zod-zz';
 
 const extendedZod = extendZod(z);
 const currencySchema = extendedZod.currency();

@@ -2,7 +2,7 @@
   "name": "zod-zz",
   "version": "0.0.0",
   "type": "module",
-  "description": "zzod has a bunch of extra types for zod (requires zod as peer dependency)",
+  "description": "zod-zz has a bunch of extra types for zod (requires zod as peer dependency)",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
