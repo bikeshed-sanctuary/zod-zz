@@ -1,6 +1,6 @@
 {
   "name": "zod-zz",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "type": "module",
   "description": "zod-zz has a bunch of extra types for zod (requires zod as peer dependency)",
   "main": "dist/index.js",
@@ -34,7 +34,7 @@
   },
   "dependencies": {
     "universal-symbols": "^0.1.2",
-    "zod-currency": "^0.0.4",
+    "zod-currency": "^0.0.5",
     "zod-extend": "^0.1.3"
   }
 }
